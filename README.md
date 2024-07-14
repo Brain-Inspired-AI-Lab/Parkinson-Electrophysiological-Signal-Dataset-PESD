@@ -1,5 +1,5 @@
 # Parkinson's Electrophysiological Signal Dataset (PESD) 
-Parkinson's Electrophysiological Signal Dataset (PESD) built by MTU Brain-Inspired AI Lab (https://sites.google.com/mtu.edu/hongyu/home?authuser=0)
+Parkinson's Electrophysiological Signal Dataset (PESD) built by Brain-Inspired AI Lab (https://sites.google.com/mtu.edu/hongyu/home?authuser=0)
 
 Dataset generated from Cortico-basal-ganglia network for parkinsonian model. 
 
