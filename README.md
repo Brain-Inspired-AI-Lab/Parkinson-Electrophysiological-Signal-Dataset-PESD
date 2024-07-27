@@ -2,11 +2,13 @@
 
 
 **About**
+
 Parkinson's Electrophysiological Signal Dataset (PESD) built by Michigan Tech Brain-Inspired AI Lab (https://sites.google.com/mtu.edu/hongyu/)
 Dataset generated from Cortico-basal-ganglia network for parkinsonian model.
 The computational model of cortico-basal-ganglia is originally presented by Fleming et al., in the article named "Simulation of Closed-Loop Deep Brain Stimulation Control Schemes for Suppression of Pathological Beta Oscillations in Parkinson's Disease" available at https://pubmed.ncbi.nlm.nih.gov/32194372/
  
 **Dataset Description:**
+
 The dataset contains electrophysiological signals from both healthy subjects and patients with Parkinson's disease. We have generated 900 samples, with 600 samples from individuals with Parkinson's and 300 samples from healthy individuals. Each sample includes two types of signals: Beta Average Rectified Voltage (ARV) and Local Field Potential (LFP) from the Subthalamic Nucleus (STN).
 Beta ARV Signal: The controller beta values are determined by calculating the Average Rectified Value (ARV) of the beta band. This is achieved by fully rectifying the filtered LFP signal using a fourth-order Chebyshev band-pass filter with an 8 Hz bandwidth, centered around the peak of the LFP power spectrum.
 Local Field Potential (LFP) - STN: Local Field Potentials are derived from the synchronized activity of neuron populations between the cortex, STN, and thalamus.
@@ -21,6 +23,7 @@ More details can be found in our article named, “Preliminary Results of Neurom
 - RunTime (unit: ms): Specifies the duration to run the simulation after reaching a steady state.
  
 **Acknowledgement:**
+
 This work was supported by the program: Disability and Rehabilitation Engineering (DARE) of National Science Foundation under Award Number 2301589. In addition, the authors deeply appreciate Dr. Kuba Orłowski and Dr. Madeleine Lowery from University College Dublin for generously sharing their knowledge on Parkinson’s disease, computational model, and closed-loop Deep Brain Stimulation.
 The dataset is under the CC0 1.0 Universal license.
  
