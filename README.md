@@ -6,6 +6,8 @@
 Parkinson's Electrophysiological Signal Dataset (PESD) built by Michigan Tech Brain-Inspired AI Lab (https://sites.google.com/mtu.edu/hongyu/)
 Dataset generated from Cortico-basal-ganglia network for parkinsonian model.
 The computational model of cortico-basal-ganglia is originally presented by Fleming et al., in the article named "Simulation of Closed-Loop Deep Brain Stimulation Control Schemes for Suppression of Pathological Beta Oscillations in Parkinson's Disease" available at https://pubmed.ncbi.nlm.nih.gov/32194372/
+
+Please cite [1] if you use the dataset in your work.
  
 **Dataset Description:**
 
@@ -14,7 +16,7 @@ The dataset contains electrophysiological signals from both healthy subjects and
 Beta ARV Signal: The controller beta values are determined by calculating the Average Rectified Value (ARV) of the beta band. This is achieved by fully rectifying the filtered LFP signal using a fourth-order Chebyshev band-pass filter with an 8 Hz bandwidth, centered around the peak of the LFP power spectrum.
 Local Field Potential (LFP) - STN: Local Field Potentials are derived from the synchronized activity of neuron populations between the cortex, STN, and thalamus.
 
-More details can be found in our article named, “Preliminary Results of Neuromorphic Controller Design and a Parkinson's Disease Dataset Building for Closed-Loop Deep Brain Stimulation”, available at https://arxiv.org/abs/2407.17756
+More details can be found in our article named, **“Preliminary Results of Neuromorphic Controller Design and a Parkinson's Disease Dataset Building for Closed-Loop Deep Brain Stimulation”**, available at https://arxiv.org/abs/2407.17756
  
 **Model Parameters:**
 - Random Seed: Used to ensure the reproducibility of random processes during the setup and simulation of the neural network. This includes generating random neuron positions, random spike times for Poisson-distributed spike trains, and random distributions for synaptic weights.
@@ -31,3 +33,6 @@ The dataset is under the CC0 1.0 Universal license.
  
 
 The dataset is under the CC0 1.0 Universal license. 
+
+**Related Works:**
+[1] Ananna Biswas, Hongyu An, "Preliminary Results of Neuromorphic Controller Design and a Parkinson's Disease Dataset Building for Closed-Loop Deep Brain Stimulation"	arXiv preprint  arXiv:2407.17756 (2024). 
