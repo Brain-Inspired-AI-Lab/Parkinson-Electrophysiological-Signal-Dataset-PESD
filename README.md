@@ -7,9 +7,7 @@ Parkinson's Electrophysiological Signal Dataset (PESD) built by Michigan Tech Br
 Dataset generated from Cortico-basal-ganglia network for parkinsonian model.
 The computational model of cortico-basal-ganglia is originally presented by Fleming et al., in the article named "Simulation of Closed-Loop Deep Brain Stimulation Control Schemes for Suppression of Pathological Beta Oscillations in Parkinson's Disease" available at https://pubmed.ncbi.nlm.nih.gov/32194372/
 
-<u> 
-Please cite [1] if you use the dataset in your work.
-</u>
+<u>Please cite [1] if you use the dataset in your work.</u>
  
 **Dataset Description:**
 
