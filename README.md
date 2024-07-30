@@ -11,7 +11,9 @@ The computational model of cortico-basal-ganglia is originally presented by Flem
  
 **Dataset Description:**
 
-The dataset contains electrophysiological signals from both healthy and parkinsonian subjects. We have generated 900 samples, with 600 samples from parkionsian subjects and 300 samples from healthy subjects, respectively. Each sample includes two types of signals: Beta Average Rectified Voltage (ARV) and Local Field Potential (LFP) from the Subthalamic Nucleus (STN). The ARV sigansls are in frequency domain and LFP signals are in time domain. 
+The dataset contains electrophysiological signals from both healthy and parkinsonian subjects. We have generated 900 samples, with 600 samples from parkionsian subjects and 300 samples from healthy subjects, respectively. The parkinsonan signals show a relatively high power density at the beta frequency (13 to 30 Hz). Thus, the beta oscillations (13 to 30 Hz) in the subthalamic nucleus (STN) are typically used as the pathological biomarkers for PD symptoms. Each sample includes two types of signals: Beta Average Rectified Voltage (ARV) and Local Field Potential (LFP) from the Subthalamic Nucleus (STN). The ARV sigansls are in frequency domain and LFP signals are in time domain. 
+
+
 
 Beta ARV Signal: The controller beta values are determined by calculating the Average Rectified Value (ARV) of the beta band. This is achieved by fully rectifying the filtered LFP signal using a fourth-order Chebyshev band-pass filter with an 8 Hz bandwidth, centered around the peak of the LFP power spectrum.
 Local Field Potential (LFP) - STN: Local Field Potentials are derived from the synchronized activity of neuron populations between the cortex, STN, and thalamus.
