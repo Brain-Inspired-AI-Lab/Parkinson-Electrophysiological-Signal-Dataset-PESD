@@ -29,7 +29,7 @@ More details can be found in our article named, **“Preliminary Results of Neur
 **Acknowledgement:**
 
 This work was supported by the program: Disability and Rehabilitation Engineering (DARE) of National Science Foundation under Award Number 2301589. In addition, the authors deeply appreciate Dr. Kuba Orłowski and Dr. Madeleine Lowery from University College Dublin for generously sharing their knowledge on Parkinson’s disease, computational model, and closed-loop Deep Brain Stimulation.
-The dataset is under the CC0 1.0 Universal license.
+
  
 
 The dataset is under the CC0 1.0 Universal license. 
